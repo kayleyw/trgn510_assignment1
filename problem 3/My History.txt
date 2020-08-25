@@ -1,0 +1,275 @@
+    1  ls
+    2  passwd
+    3  exit
+    4  pwd
+    5  exit
+    6  ls
+    7  pwd
+    8  mkdir bin
+    9  ls
+   10  mkdir scripts
+   11  mkdir projects
+   12  ls
+   13  cat /etc/*release | head -1
+   14  FILE="bin"; [ -d "$FILE" ] && echo "$FILE" | md5sum || echo "None" | md5sum | cut -f1
+   15  exit
+   16  ls
+   17  mkdir assignments
+   18  cd assignments/
+   19  mkdir trgn_assignment1
+   20  cd trgn_assignment1/
+   21  echo "#trgn510_assignment1" >> README.md
+   22  git init
+   23  git add README.md
+   24  git commit -m "first commit"
+   25  git remote add origin https://github.com/davcraig75/trgn510_assignment1.git
+   26  echo "#trgn510_assignment1" >> README.md
+   27  ls
+   28  git init
+   29  add README.md
+   30  git add README.md
+   31  ls
+   32  git commit -m "first commit"
+   33  git config --global user.email "kayleymanyeewong@gmail.com"
+   34  git config --global user.name "Kayley Wong""
+   35  git config --global user.name "Kayley Wong"
+   36  git config --global user.name "Kayley Wong"
+   37  git commit -m "first commit"
+   38  git remote add origin https://github.com/kayleyw/trgn510_assignment1
+   39  git push -u origin master
+   40  ls
+   41  vi README.md 
+   42  git add . -A
+   43  git commit -m "First commit"
+   44  git push origin master
+   45  exit
+   46  ls
+   47  cd assignments
+   48  ls
+   49  cd trgn_assignment1/
+   50  ls
+   51  git init
+   52  git add README.md
+   53  ls
+   54  commit -m "first commit"
+   55  git commit -m "first commit"
+   56  git add README.md
+   57  git commit -m "first commit"
+   58  git remote add origin https://github.com/kayleyw/trgn510_assignment1
+   59  git push -u origin master
+   60  git remote
+   61  git remote -v
+   62  git remote set-url  https://github.com/kayleyw/trgn510_assignment1
+   63  git remote set-url --push https://github.com/kayleyw/trgn510_assignment1
+   64  git remote set-url origin https://github.com/kayleyw/trgn510_assignment1
+   65  git remove -v
+   66  git remote -v
+   67  vi README.md 
+   68  git add . -A
+   69  git commit -m "First commit"
+   70  git status
+   71  vi README.md 
+   72  git commit -m "First commit"
+   73  git push origin master
+   74  git pull
+   75  cd ..
+   76  mv assignments/
+   77  mv assignments
+   78  ls
+   79  cd assignments/
+   80  ls
+   81  cd trgn_assignment1/
+   82  ls
+   83  vi README.md
+   84  git init
+   85  git add README.md
+   86  git commit -m "first commit"
+   87  git remote add origin https://github.com/kayleyw/trgn510_assignment1.git
+   88  git push -u origin master
+   89  git add . -A
+   90  git commit - "First commit"
+   91  git commit -m  "First commit"
+   92  git add READ.md
+   93  ls
+   94  git add README.md
+   95  git status
+   96  exit 
+   97  cd 
+   98  ls
+   99  rm assignments/
+  100  rmdir assignments/
+  101  cd as
+  102  cd assignments/
+  103  ls
+  104  cd trgn_assignment1/
+  105  ls -a 
+  106  ls -al
+  107  cd .
+  108  ls
+  109  ls -al
+  110  cd .
+  111  ls
+  112  ls -al
+  113  cd .git
+  114  ls
+  115  cd branches/
+  116  ls
+  117  ls -al
+  118  cd ..
+  119  ls 
+  120  ls -al
+  121  cd .git
+  122  ls
+  123  cd logs
+  124  ls
+  125  cat HEAD
+  126  cd refs
+  127  ls
+  128  cd remotes
+  129  ls
+  130  cd origin
+  131  ls
+  132  cat master
+  133  cd ..
+  134  ls
+  135  cat COMMIT_EDITMSG 
+  136  cd info
+  137  ls
+  138  cd ..
+  139  ls -al
+  140  cd .
+  141  cd ..
+  142  cd '..'
+  143  ls 
+  144  cd assignments/
+  145  cd trgn_assignment1/
+  146  ls
+  147  vi README.md
+  148  git add README.md
+  149  git add . -A
+  150  git commit -m "First commit"
+  151  git init
+  152  add README.md
+  153  git add README.md
+  154  git commit -m "first commit"
+  155  git remote add origin https://github.com/kayleyw/trgn510_assignment1
+  156  git push -u origin master
+  157  git pull --help
+  158  git status
+  159  git remote -v
+  160  git pull
+  161  st
+  162  gst
+  163  git status
+  164  git reset --HARD
+  165  git stash
+  166  cat README.md
+  167  git reset --hard 
+  168  git status
+  169  git reset --hard
+  170  git reset --hard cbb673c
+  171  git log
+  172  git status
+  173  git reset HEAD
+  174  git reset HEAD^ --hard
+  175  gst
+  176  git status
+  177  cat README.md
+  178  vi README.md 
+  179  git status
+  180  git add README.md
+  181  vi README.md 
+  182  git add README.md
+  183  git commit -m "First commit"
+  184  git status
+  185  git pull
+  186  git pull master
+  187  git pull origin
+  188  git pull origin master
+  189  ls
+  190  code README.md
+  191  cat README.md
+  192  vi README.md 
+  193  git status
+  194  git add .
+  195  git commit -m "First commit"
+  196  git status
+  197  git push
+  198  git status
+  199  exit 
+  200  exit
+  201  cd ~/assignments/trgn_assignment1
+  202  history
+  203  mkdir problem1
+  204  cd problem1
+  205  history > myhistory.txt
+  206  ls
+  207  cat myhistory.txt | head
+  208  cd ..
+  209  mkdir problem2
+  210  cd problem
+  211  cd problem2
+  212  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/
+  213  cp ~/data/bashrc ~/assignments/trgn_assignment1/problem2/
+  214  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/
+  215  cd ..
+  216  ls -al
+  217  cp /data/.bashrc ~/assignments/trgn_assignment1/problem2/
+  218  cp ~/data/.bashrc ~/assignments/trgn_assignment1/problem2/
+  219  cp ~/.bashrc ~/assignments/trgn_assignment1/problem2/
+  220  cd ~/assignments/trgn_assignment1/problem2/
+  221  ls -la
+  222  vim .bashrc
+  223  source ~/assignments/trgn_assignment1/problem2/bashrc
+  224  source ~/assignments/trgn_assignment1/problem2/.bashrc
+  225  cp ~/.bashrc ~/assignments/trgn_assignment1/problem2/.
+  226  ls
+  227  ls -al
+  228  vim .bashrc
+  229  source ~/assignments/trgn_assignment1/problem2/.bashrc
+  230  vim .bashrc
+  231  source ~/assignments/trgn_assignment1/problem2/.bashrc
+  232  cp ~/assignments/trgn_assignment1/problem2/.bashrc ~/.bashrc
+  233  cd home
+  234  cd ..
+  235  ls
+  236  ls -al
+  237  cd data
+  238  ls
+  239  vim bashrc 
+  240  cp bashrc ~/assignments/trgn_assignment1/problem2/.
+  241  cd  ~/assignments/trgn_assignment1/problem2/
+  242  ls -al
+  243  rm .bashrc
+  244  ls -al
+  245  vim bashrc 
+  246  source ~/assignments/trgn_assignment1/problem2/bashrc
+  247  cp /home/data/vimrc ~/assignments/trgn_assignment1/problem2/
+  248  cd ..
+  249  ls -al
+  250  cp ~/assignments/trgn_assignment1/problem2/bashrc ~/.bashrc
+  251  ls -al
+  252  cd /assignments/trgn_assignment1/problem2/
+  253  cd ~/assignments/trgn_assignment1/problem2/
+  254  ls
+  255  vim vimrc 
+  256  cp ~/assignments/trgn_assignment1/problem2/vimrc ~/.vimrc
+  257  cd ..
+  258  vi ~/.vimrc
+  259  ls -al
+  260  cd assignments/trgn_assignment1/problem3
+  261  cd ..
+  262  mkdir problem 3
+  263  cd problem 3
+  264  cd ..
+  265  ls -l
+  266  mkdir 'problem 3'
+  267  ls -l
+  268  rm 3
+  269  rmdir 3
+  270  ls -l
+  271  rm dir problem
+  272  rmdir problem
+  273  ls -l
+  274  cd problem\ 3
+  275  history > 'My History.txt'
