@@ -1,1 +1,6 @@
 # My processes
+root     171750   2718  0 12:48 ?        00:00:00 sshd: manyeewo [priv]
+manyeewo 171770 171750  0 12:48 ?        00:00:00 sshd: manyeewo@pts/0
+manyeewo 171771 171770  0 12:48 pts/0    00:00:00 -bash
+manyeewo 172165 171771  0 12:53 pts/0    00:00:00 ps -ef
+manyeewo 172166 171771  0 12:53 pts/0    00:00:00 grep --color=auto manyeewo
